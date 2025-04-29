@@ -181,7 +181,7 @@ class _AddEditNoteScreenState extends State<AddEditNoteScreen> {
             ElevatedButton(
               onPressed: _saveNote,
               style: ElevatedButton.styleFrom(
-                backgroundColor: AppColors.primary,
+                backgroundColor: const Color.fromRGBO(254, 199, 218, 1),
                 foregroundColor: Colors.white,
                 padding: const EdgeInsets.symmetric(vertical: 16),
                 shape: RoundedRectangleBorder(

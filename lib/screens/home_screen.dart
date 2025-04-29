@@ -235,7 +235,7 @@ class HomeScreen extends StatelessWidget {
           ],
         ),
         child: FloatingActionButton(
-          backgroundColor: AppColors.primary,
+          backgroundColor: const Color.fromRGBO(254, 199, 218, 1),
           onPressed: () {
             Navigator.push(
               context,
