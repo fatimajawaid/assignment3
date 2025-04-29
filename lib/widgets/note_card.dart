@@ -33,7 +33,7 @@ class _NoteCardState extends State<NoteCard> {
     // Generate a random tilt angle between +5 and -5 degrees (reversed direction)
     // Using the note's ID as seed to ensure consistent tilt for each note
     final random = math.Random(widget.note.id.hashCode);
-    tiltAngle = ((random.nextDouble() * 10 - 5)) * math.pi / 180; // Multiply by -1 to reverse direction
+    tiltAngle = - 5 * math.pi / 180; // Multiply by -1 to reverse direction
   }
 
   @override
